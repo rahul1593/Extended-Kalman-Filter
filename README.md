@@ -9,3 +9,9 @@ __To build the project run the following commands:__
 2. `make`
 
 Run `./ExtendedKF` to run.
+
+### Changes made
+
+1. kalman_filter.h: Add function declarations for angle normalisaion and coordinate system conversion, defined in cpp files.
+2. FusionEKF.cpp: Completed initialisation and measurement methods.
+3. tools.cpp: Completed functions for calculating jacobian matrix and RMSE.
